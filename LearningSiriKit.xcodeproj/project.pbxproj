@@ -12,7 +12,45 @@
 		B090AC691FAACF52002C7748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B090AC671FAACF52002C7748 /* Main.storyboard */; };
 		B090AC6B1FAACF52002C7748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B090AC6A1FAACF52002C7748 /* Assets.xcassets */; };
 		B090AC6E1FAACF52002C7748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B090AC6C1FAACF52002C7748 /* LaunchScreen.storyboard */; };
+		B0CF17E11FAB747900A999C3 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF17E01FAB747900A999C3 /* IntentHandler.swift */; };
+		B0CF17EA1FAB747900A999C3 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF17E91FAB747900A999C3 /* IntentsUI.framework */; };
+		B0CF17ED1FAB747900A999C3 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CF17EC1FAB747900A999C3 /* IntentViewController.swift */; };
+		B0CF17F01FAB747900A999C3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CF17EE1FAB747900A999C3 /* MainInterface.storyboard */; };
+		B0CF17F41FAB747900A999C3 /* IntentHandlerUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0CF17E71FAB747900A999C3 /* IntentHandlerUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B0CF17F71FAB747900A999C3 /* IntentHandler.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0CF17DE1FAB747800A999C3 /* IntentHandler.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0CF17F21FAB747900A999C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B090AC581FAACF52002C7748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CF17E61FAB747900A999C3;
+			remoteInfo = IntentHandlerUI;
+		};
+		B0CF17F51FAB747900A999C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B090AC581FAACF52002C7748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CF17DD1FAB747800A999C3;
+			remoteInfo = IntentHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0CF17FE1FAB747900A999C3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B0CF17F41FAB747900A999C3 /* IntentHandlerUI.appex in Embed App Extensions */,
+				B0CF17F71FAB747900A999C3 /* IntentHandler.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B090AC601FAACF52002C7748 /* LearningSiriKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSiriKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +60,15 @@
 		B090AC6A1FAACF52002C7748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B090AC6D1FAACF52002C7748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B090AC6F1FAACF52002C7748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CF17D91FAB73BA00A999C3 /* LearningSiriKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningSiriKit.entitlements; sourceTree = "<group>"; };
+		B0CF17DE1FAB747800A999C3 /* IntentHandler.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentHandler.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF17E01FAB747900A999C3 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		B0CF17E21FAB747900A999C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CF17E71FAB747900A999C3 /* IntentHandlerUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IntentHandlerUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF17E91FAB747900A999C3 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		B0CF17EC1FAB747900A999C3 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		B0CF17EF1FAB747900A999C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		B0CF17F11FAB747900A999C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +79,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0CF17DB1FAB747800A999C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF17E41FAB747900A999C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF17EA1FAB747900A999C3 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				B090AC621FAACF52002C7748 /* LearningSiriKit */,
+				B0CF17DF1FAB747900A999C3 /* IntentHandler */,
+				B0CF17EB1FAB747900A999C3 /* IntentHandlerUI */,
+				B0CF17E81FAB747900A999C3 /* Frameworks */,
 				B090AC611FAACF52002C7748 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				B090AC601FAACF52002C7748 /* LearningSiriKit.app */,
+				B0CF17DE1FAB747800A999C3 /* IntentHandler.appex */,
+				B0CF17E71FAB747900A999C3 /* IntentHandlerUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +121,7 @@
 		B090AC621FAACF52002C7748 /* LearningSiriKit */ = {
 			isa = PBXGroup;
 			children = (
+				B0CF17D91FAB73BA00A999C3 /* LearningSiriKit.entitlements */,
 				B090AC631FAACF52002C7748 /* AppDelegate.swift */,
 				B090AC651FAACF52002C7748 /* ViewController.swift */,
 				B090AC671FAACF52002C7748 /* Main.storyboard */,
@@ -62,6 +130,33 @@
 				B090AC6F1FAACF52002C7748 /* Info.plist */,
 			);
 			path = LearningSiriKit;
+			sourceTree = "<group>";
+		};
+		B0CF17DF1FAB747900A999C3 /* IntentHandler */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF17E01FAB747900A999C3 /* IntentHandler.swift */,
+				B0CF17E21FAB747900A999C3 /* Info.plist */,
+			);
+			path = IntentHandler;
+			sourceTree = "<group>";
+		};
+		B0CF17E81FAB747900A999C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF17E91FAB747900A999C3 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0CF17EB1FAB747900A999C3 /* IntentHandlerUI */ = {
+			isa = PBXGroup;
+			children = (
+				B0CF17EC1FAB747900A999C3 /* IntentViewController.swift */,
+				B0CF17EE1FAB747900A999C3 /* MainInterface.storyboard */,
+				B0CF17F11FAB747900A999C3 /* Info.plist */,
+			);
+			path = IntentHandlerUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +169,52 @@
 				B090AC5C1FAACF52002C7748 /* Sources */,
 				B090AC5D1FAACF52002C7748 /* Frameworks */,
 				B090AC5E1FAACF52002C7748 /* Resources */,
+				B0CF17FE1FAB747900A999C3 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B0CF17F31FAB747900A999C3 /* PBXTargetDependency */,
+				B0CF17F61FAB747900A999C3 /* PBXTargetDependency */,
 			);
 			name = LearningSiriKit;
 			productName = LearningSiriKit;
 			productReference = B090AC601FAACF52002C7748 /* LearningSiriKit.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B0CF17DD1FAB747800A999C3 /* IntentHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CF17FB1FAB747900A999C3 /* Build configuration list for PBXNativeTarget "IntentHandler" */;
+			buildPhases = (
+				B0CF17DA1FAB747800A999C3 /* Sources */,
+				B0CF17DB1FAB747800A999C3 /* Frameworks */,
+				B0CF17DC1FAB747800A999C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentHandler;
+			productName = IntentHandler;
+			productReference = B0CF17DE1FAB747800A999C3 /* IntentHandler.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B0CF17E61FAB747900A999C3 /* IntentHandlerUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CF17F81FAB747900A999C3 /* Build configuration list for PBXNativeTarget "IntentHandlerUI" */;
+			buildPhases = (
+				B0CF17E31FAB747900A999C3 /* Sources */,
+				B0CF17E41FAB747900A999C3 /* Frameworks */,
+				B0CF17E51FAB747900A999C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntentHandlerUI;
+			productName = IntentHandlerUI;
+			productReference = B0CF17E71FAB747900A999C3 /* IntentHandlerUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +227,19 @@
 				ORGANIZATIONNAME = "Rommel Rico";
 				TargetAttributes = {
 					B090AC5F1FAACF52002C7748 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					B0CF17DD1FAB747800A999C3 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B0CF17E61FAB747900A999C3 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +259,8 @@
 			projectRoot = "";
 			targets = (
 				B090AC5F1FAACF52002C7748 /* LearningSiriKit */,
+				B0CF17DD1FAB747800A999C3 /* IntentHandler */,
+				B0CF17E61FAB747900A999C3 /* IntentHandlerUI */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +276,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0CF17DC1FAB747800A999C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF17E51FAB747900A999C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF17F01FAB747900A999C3 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +303,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0CF17DA1FAB747800A999C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF17E11FAB747900A999C3 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CF17E31FAB747900A999C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CF17ED1FAB747900A999C3 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CF17F31FAB747900A999C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CF17E61FAB747900A999C3 /* IntentHandlerUI */;
+			targetProxy = B0CF17F21FAB747900A999C3 /* PBXContainerItemProxy */;
+		};
+		B0CF17F61FAB747900A999C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CF17DD1FAB747800A999C3 /* IntentHandler */;
+			targetProxy = B0CF17F51FAB747900A999C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B090AC671FAACF52002C7748 /* Main.storyboard */ = {
@@ -158,6 +349,14 @@
 				B090AC6D1FAACF52002C7748 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CF17EE1FAB747900A999C3 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CF17EF1FAB747900A999C3 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,12 +472,14 @@
 		B090AC731FAACF52002C7748 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningSiriKit/LearningSiriKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
 				INFOPLIST_FILE = LearningSiriKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -288,13 +489,75 @@
 		B090AC741FAACF52002C7748 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningSiriKit/LearningSiriKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
 				INFOPLIST_FILE = LearningSiriKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0CF17F91FAB747900A999C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
+				INFOPLIST_FILE = IntentHandlerUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit.IntentHandlerUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CF17FA1FAB747900A999C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
+				INFOPLIST_FILE = IntentHandlerUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit.IntentHandlerUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0CF17FC1FAB747900A999C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
+				INFOPLIST_FILE = IntentHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit.IntentHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CF17FD1FAB747900A999C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
+				INFOPLIST_FILE = IntentHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningSiriKit.IntentHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,6 +580,24 @@
 			buildConfigurations = (
 				B090AC731FAACF52002C7748 /* Debug */,
 				B090AC741FAACF52002C7748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CF17F81FAB747900A999C3 /* Build configuration list for PBXNativeTarget "IntentHandlerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CF17F91FAB747900A999C3 /* Debug */,
+				B0CF17FA1FAB747900A999C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CF17FB1FAB747900A999C3 /* Build configuration list for PBXNativeTarget "IntentHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CF17FC1FAB747900A999C3 /* Debug */,
+				B0CF17FD1FAB747900A999C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
