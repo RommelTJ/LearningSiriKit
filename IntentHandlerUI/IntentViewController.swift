@@ -42,3 +42,10 @@ class IntentViewController: UIViewController, INUIHostedViewControlling {
     }
     
 }
+
+
+// MARK: - INUIHostedViewSiriProviding
+extension IntentViewController: INUIHostedViewSiriProviding {
+    var displaysMap: Bool { return true }
+}
+
