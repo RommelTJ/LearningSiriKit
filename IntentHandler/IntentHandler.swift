@@ -8,15 +8,6 @@
 
 import Intents
 
-enum BikeTaxiClass: String, CustomStringConvertible {
-    case premier
-    case basic
-    
-    var description: String {
-        return self.rawValue.localizedCapitalized
-    }
-}
-
 class IntentHandler: INExtension {
     
     private func placemarkResolutionResult(for placemark: CLPlacemark?) -> INPlacemarkResolutionResult {

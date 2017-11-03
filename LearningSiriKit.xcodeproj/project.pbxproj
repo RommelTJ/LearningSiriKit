@@ -19,6 +19,9 @@
 		B0CF17F41FAB747900A999C3 /* IntentHandlerUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0CF17E71FAB747900A999C3 /* IntentHandlerUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B0CF17F71FAB747900A999C3 /* IntentHandler.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B0CF17DE1FAB747800A999C3 /* IntentHandler.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B0EC25211FACC4FE00B8F76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EC25201FACC4FE00B8F76A /* Assets.xcassets */; };
+		B0EC25231FACC74400B8F76A /* BikeTaxiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC25221FACC74400B8F76A /* BikeTaxiClass.swift */; };
+		B0EC25241FACC74400B8F76A /* BikeTaxiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC25221FACC74400B8F76A /* BikeTaxiClass.swift */; };
+		B0EC25251FACC74400B8F76A /* BikeTaxiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EC25221FACC74400B8F76A /* BikeTaxiClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,7 @@
 		B0CF17EF1FAB747900A999C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		B0CF17F11FAB747900A999C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EC25201FACC4FE00B8F76A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0EC25221FACC74400B8F76A /* BikeTaxiClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTaxiClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 				B0CF17D91FAB73BA00A999C3 /* LearningSiriKit.entitlements */,
 				B090AC631FAACF52002C7748 /* AppDelegate.swift */,
 				B090AC651FAACF52002C7748 /* ViewController.swift */,
+				B0EC25221FACC74400B8F76A /* BikeTaxiClass.swift */,
 				B090AC671FAACF52002C7748 /* Main.storyboard */,
 				B090AC6A1FAACF52002C7748 /* Assets.xcassets */,
 				B090AC6C1FAACF52002C7748 /* LaunchScreen.storyboard */,
@@ -303,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B090AC661FAACF52002C7748 /* ViewController.swift in Sources */,
+				B0EC25231FACC74400B8F76A /* BikeTaxiClass.swift in Sources */,
 				B090AC641FAACF52002C7748 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CF17E11FAB747900A999C3 /* IntentHandler.swift in Sources */,
+				B0EC25241FACC74400B8F76A /* BikeTaxiClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CF17ED1FAB747900A999C3 /* IntentViewController.swift in Sources */,
+				B0EC25251FACC74400B8F76A /* BikeTaxiClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
